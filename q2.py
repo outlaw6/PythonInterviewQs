@@ -18,5 +18,6 @@ def f1(s1):
 				c+=1
 			else:
 				c+=1
-	return dik
+	return dik.items(), [(j,k) for j, k in dik.items()]
+	# or return [(j,k) for j, k in dik.items()]
 print(f1('aaaabbbcc'))
